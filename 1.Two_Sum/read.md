@@ -29,3 +29,10 @@ Constraints:
 - 109 <= nums[i] <= 109
 - 109 <= target <= 109
 - Only one valid answer exists.
+
+### Solution 1: Brute Force 
+
+
+This is the simplest solution and so it is also the least efficient with the time complexity of O(n^2), here we consider every pair of elements and check if the sum is equal to the target. 
+
+Done using nested loops, the outer loop iterates through all but last element while the inner loop iterates from next element of the outer loop iteration to last.
