@@ -36,3 +36,27 @@ Constraints:
 This is the simplest solution and so it is also the least efficient with the time complexity of O(n^2), here we consider every pair of elements and check if the sum is equal to the target. 
 
 Done using nested loops, the outer loop iterates through all but last element while the inner loop iterates from next element of the outer loop iteration to last.
+1. Loop i from 0 to n-1
+2. Loop j from i+1 to n
+3. Check if num[i] + num[j] is equal to target if yes return the indeces. Repeat till Loops are completed
+4. If no solution then return empty or None
+
+
+### Solution 2:
+
+This solution is done using a hashmap and has a time complexity of O(n) since lookups in hashmap are constant time.
+
+1. Create an empty hashtable
+2. Iterate through the array and store the elements and their indices in the hashtable.
+3. Iterate once more and calculate the compliment of for each element in the array from the target.
+4. If the complement exists and is not the same index as the element return the pair of indeces
+5. If no solution exists after the iteration return empty array or None
+
+
+Alternatively it can also be done in one iteration rather than two
+
+1. Create an empty hashtable
+2. Iterate through the array, calculate the complement of the element from the target, if the complement is in the map then return the index of the element and of the complement.
+3. Else add the element to the map.
+4. If no solution exists after the iteration return empty array or None
+
