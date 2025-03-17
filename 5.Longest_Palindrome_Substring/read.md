@@ -21,4 +21,4 @@ Manacher Algorithm calculates the number of characters which are the same on the
 - if the index is within the limits of the substring then calculate the palin length as the minimum of the remaining length at the right of index till the edge of substring or the palin lenght at the mirror index (abaxabayabd).
 - Now search beyond the substring if the characters are the same to the right as they are on left, if they are then increment the palinlength.
 - if the sum of index and its palin length is greater than the end index of the substring that means there are more characters that can be added to the substring and still remain a palindrome, thus the center is set at the current index and the end index is moved to index + palinlength.
-- The index with the largest palinlength value is the centre of the longest palidrome substring with length of 2*palindrome-1
+- The index with the largest palinlength value is the centre of the longest palidrome substring with length palinlength
