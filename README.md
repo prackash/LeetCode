@@ -21,3 +21,6 @@ Given a string s, return the longest palindrome
 
 ### 6. ZigZag Conversion.
 Given a string s, return the writing in a zigzag pattern on a given number of rows
+
+### 7 Reverse Integer.
+Given an integer x return the reverse of the integer (1230 will be returned as 321)
