@@ -24,3 +24,7 @@ Given a string s, return the writing in a zigzag pattern on a given number of ro
 
 ### 7 Reverse Integer.
 Given an integer x return the reverse of the integer (1230 will be returned as 321)
+
+
+### 8. String to Integer
+Given a String containing numbers, return the numbers to the left of the string where there are only numbers, it can be lead by one - or +. ignore all leading whitespaces
