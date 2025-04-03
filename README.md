@@ -13,6 +13,11 @@ Given two non-empty linked lists representing two non-negative integers. The dig
 ### 3. Longest Substring Without Repeating Characters
 Given a string s, find the length of the  longest substring without duplicate characters.
 
-### 4. Longest Palindrome Substring.
-Given a string s, return the longest palindrom
+### 4. Media_of_two_sorted arrays.
+Given two sorted arrays, return the median of two arrays
 
+### 5. Longest Palindrome Substring.
+Given a string s, return the longest palindrome
+
+### 6. ZigZag Conversion.
+Given a string s, return the writing in a zigzag pattern on a given number of rows
