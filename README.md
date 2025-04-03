@@ -28,3 +28,9 @@ Given an integer x return the reverse of the integer (1230 will be returned as 3
 
 ### 8. String to Integer
 Given a String containing numbers, return the numbers to the left of the string where there are only numbers, it can be lead by one - or +. ignore all leading whitespaces
+
+### 9. Palindrome Number
+Given an integer x, return true if x is palindrome else false
+-121 is not a palindrome because it would be 121-
+10 is not a palindrome because it is 01
+121 is palindrome number
