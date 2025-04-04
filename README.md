@@ -34,3 +34,11 @@ Given an integer x, return true if x is palindrome else false
 -121 is not a palindrome because it would be 121-
 10 is not a palindrome because it is 01
 121 is palindrome number
+
+### 1123. Lowest Common Ancestor of Deepest Leaves
+Given a binary tree return the lowest common ancestor of its deepest leaves. Note that the common Ancestor must be complete (i.e. two child nodes) or none at all
+
+### 2874. Maximum Value of an Ordered Triplet II
+Given an array return the maximum value of triplet of indices (i,j,k) such that i < j < k and the value is calculated as (nums[i]-nums[j])*nums[k]
+
+
