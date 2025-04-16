@@ -41,4 +41,5 @@ Given a binary tree return the lowest common ancestor of its deepest leaves. Not
 ### 2874. Maximum Value of an Ordered Triplet II
 Given an array return the maximum value of triplet of indices (i,j,k) such that i < j < k and the value is calculated as (nums[i]-nums[j])*nums[k]
 
-
+### 2999. Count the Number of Powerful Integers
+Given the start and end integers count all integers that with string s containing positive integer. Do note that each digit in the integer is at most limit
