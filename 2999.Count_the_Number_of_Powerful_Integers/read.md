@@ -35,5 +35,5 @@ if the prefix of the int appended with the suffix is lesser than the converted i
 {"25"+"23" < 2577}
 ans=ans+1 = 22
 
-now calculate the same for the end integer and the return the difference
+now calculate the same for the end integer and the return the difference of the two
 
